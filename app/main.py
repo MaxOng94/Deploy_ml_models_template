@@ -9,6 +9,7 @@ app = FastAPI()
 
 
 # declaring that we want it to be string type
+# type forcing the inputs and outputs to be both string type
 class TextIn(BaseModel):
     text:str
 
